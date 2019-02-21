@@ -1,0 +1,69 @@
+header {
+    min-height: 130px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-sticky {
+    min-height: 1px;
+    width: 100%;
+}
+
+header .container {
+    height: 85px;
+}
+
+.site-logo {
+    width: 168px;
+    height: 23px;
+    float: left;
+    display: block;
+    margin-top: 34px;
+}
+
+.header-nav {
+    padding-left: 30px;
+    padding-right: 45px;
+    width: 600px;
+    float: left;
+}
+
+.list-header-nav li {
+    display: inline-block;
+}
+
+.list-header-nav > li > a {
+    text-decoration: none;
+    color: #39424e;
+    padding: 0.867em 0.633em;
+    display: block;
+    font-size: 18px;
+}
+
+.list-header-nav li > a:hover {
+    border-bottom: 3px solid #1ba94c;
+}
+
+.navigation-login-right {
+    width: 169px;
+    float: right;
+    margin-top: 1.4%;
+}
+
+.navigation-login-right > ul > li {
+    display: inline-block;
+}
+
+.navigation-login-right a {
+    text-decoration: none;
+    color: #738f93;
+}
+
+.login {
+}
+
+.sign-up {
+    border: 1px solid #738f93;
+    padding: 5px 15px;
+}

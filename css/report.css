@@ -1,0 +1,44 @@
+.report {
+    min-height: 240px;
+    background-color: #0D141E;
+    background-image: url("../img/devskills.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+
+.report .container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.developers-info > h1, .year-2019 {
+    font-size: 36px;
+    letter-spacing: -1px;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+}
+
+.year-2019 {
+    color: #32c766;
+}
+
+.developers {
+    color: white;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+.report-text {
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.read-report:hover {
+    box-shadow: 0 2px 4px rgba(27, 169, 76, 0.5);
+}
