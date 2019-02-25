@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f3f7f7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 480px;
+    flex-direction: column;
+    width: 664px;
+    background: #fff;
+}
+
+.sign-up-box-container {
+    width: 100%;
+    padding: 2em 4em;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.15em;
+}
+
+main {
+    padding: 30px;
+}
+
+.all-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-inputs input {
+    size: 100px;
+}
+
+main a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #1ba94c;
+    font-weight: 600;
+    padding: 1em 1.5em;
+}

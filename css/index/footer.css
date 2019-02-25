@@ -1,5 +1,8 @@
 footer {
     max-height: 230px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
 }
 
 footer > .container > ul > li {
@@ -69,19 +72,19 @@ footer > .container > ul > li {
 }
 
 .linkedin-icon {
-    background: url("../img/linkedin.png") no-repeat;
+    background: url("../../img/linkedin.png") no-repeat;
 }
 
 .twitter-icon {
-    background: url("../img/share_twitter.png") no-repeat;
+    background: url("../../img/share_twitter.png") no-repeat;
 }
 
 .facebook-icon {
-    background: url("../img/share_twitter.png") no-repeat;
+    background: url("../../img/share_twitter.png") no-repeat;
 }
 
 .podcast-icon {
-    background: url("../img/podcast.png") no-repeat;
+    background: url("../../img/podcast.png") no-repeat;
 }
 
 .footer-icons a {
